@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JBCreation_TicketBlaster>
+            <version>0.0.1</version>
+        </JBCreation_TicketBlaster>
+    </modules>
+
+	<global>
+        <blocks>
+            <ticketblaster>
+                <class>JBCreation_TicketBlaster_Block</class>
+            </ticketblaster>
+        </blocks>
+        <models>
+            <ticketblaster>
+                <class>JBCreation_TicketBlaster_Model</class>
+            </ticketblaster>
+        </models>
+        <helpers>
+            <ticketblaster>
+                <class>JBCreation_TicketBlaster_Helper</class>
+            </ticketblaster>
+        </helpers>
+		<resources>
+            <ticketblaster_setup>
+                <setup>
+                    <module>JBCreation_TicketBlaster</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </ticketblaster_setup>
+        </resources>
+	</global>
+</config>
